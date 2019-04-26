@@ -18,7 +18,7 @@ supported.versions=
 '; } # end properties
 
 # shell variables
-block=/dev/block/platform/bootdevice/by-name/boot;
+block=/dev/block/bootdevice/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
 
